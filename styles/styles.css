@@ -1,0 +1,289 @@
+body{
+    background-color: black;
+}
+.main {
+    background-color: black;
+    color: white;
+    width: auto;
+    text-align: justify;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu {
+    margin: auto;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-bottom: solid 1px white;
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+li {
+    padding: 15px;
+    display: inline-flex;
+    margin: auto;
+    align-items: center;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background-color: white;
+}
+
+.menu li:hover a {
+    color: black;
+}
+
+.nier-info div a {
+    padding-right: 5%;
+}
+
+li i {
+    padding-right: 10px;
+}
+
+.main-pic {
+    width: 100%;
+}
+
+.plateforms {
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.plateforms li {
+    width: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.plateforms-logo {
+    width: 100%;
+}
+
+.nier-info {
+    border-top: 1px solid white;
+    width: 100%;
+    background-image: linear-gradient(black, rgb(193, 193, 193));
+}
+
+
+.nier-info h1 {
+    padding: 5%;
+    padding-top: 2%;
+}
+
+.nier-info div {
+    padding-left: 2.5%;
+    padding-bottom: 5%;
+    width: 100%;
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+.twob-sprite {
+    width: auto;
+    margin: auto;
+    float:right;
+}
+
+@media screen and (min-width: 1200px) {
+    .main {
+        width: 1200px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:910px) {
+    .menu li a text {
+        display: none;
+    }
+
+    .menu li {
+        padding-left: 3%;
+    }
+}
+
+@media screen and (max-width:665px) {
+    .nier-info div a {
+        display: none;
+    }
+
+    .nier-info div {
+        padding-right: 5%;
+    }
+}
+
+.gallery {
+    width: 100%;
+    background-image: linear-gradient(black, rgb(28, 28, 28));
+}
+
+.gallery h1 {
+    text-align: center;
+    padding: 3%;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 35% 25%;
+    justify-content: center;
+}
+
+.grid-container div {
+    border: 3px solid white;
+    text-align: center;
+    margin: 5%;
+}
+
+.weapons {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.weapons h1 {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.weapons table {
+    margin: auto;
+    width: auto;
+}
+
+.weapons th {
+    padding: 1%;
+    border: 1px solid white;
+    background-color: rgb(35, 35, 35);
+    position:sticky;
+    top:79.4px;
+}
+
+.weapons td {
+    width: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: left;
+}
+
+.weapons td:first-child {
+    text-align: center;
+}
+
+.weapons tr div {
+    padding: 15px;
+}
+
+.weapons-images {
+    width: 90%;
+}
+.gameplay{
+    width: 100%;
+}
+.gameplay h1{
+    text-align: left;
+    padding-left:2%;
+    font-size: 35px;
+}
+.right-column{
+    float:left;
+    width:40%;
+    background-color: black;
+    padding-left: 5%;
+}
+.left-column{
+    float:left;
+    width: 50%;
+    padding-left: 2%;
+    flex-wrap: nowrap;
+    text-align: justify;
+}
+.video{
+    width:420px;
+    height: 345px;
+    margin-bottom: 35%;
+}
+audio{
+    margin-bottom:8%;
+}
+.devs{
+    width: 100%;
+    float:left;
+}
+.column{
+    width: 30%;
+    float:left;
+    text-align: center;
+}
+.column img{
+    border: 5px solid white;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+}
+.column div{
+    text-decoration: overline;
+}
+.column p{
+    text-align: justify;
+    flex-wrap: nowrap;
+    padding:10px;
+}
+.characters-column{
+    width: 40%;
+    float:left;
+    flex-wrap: nowrap;
+    margin-left: 10%;
+}
+.characters-column img{
+    border: 5px solid white;
+    border-radius: 100px;
+    width: 120px;
+    height: 120px;
+    float:left;
+    margin-right: 15px;
+}
+.characters-column p{
+    margin-top: 5%;
+}
+.characters-column div{
+    margin-top: 15%;
+}
+.fixed-object{
+    position:fixed;
+    bottom: 50%;
+    right:20%;
+    border:2px solid white;
+}
+.absolute-object{
+    position: absolute;
+    bottom: 50px;
+    right:20%;
+    border:2px solid white;
+    z-index: -1;
+}
